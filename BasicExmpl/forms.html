@@ -4,11 +4,17 @@
 	<title>Forms Demo</title>
 </head>
 <body>
-	<input type="text" placeholder="Username">
-	<!-- <input type="color">
-	<input type="radio"> -->
-	<input type="password" placeholder="Password">
-	<button>Submit</button>      <!-- button type -->
-	<input type="submit">        <!-- input type -->
+
+	<h1>Login</h1>
+	<!-- action - where the form sends data -->
+	<!-- method - what http method (get/post) -->
+	<form action="http://wikipedia.org" method="GET">
+		<input type="text" name="Username" placeholder="Username">
+		<!-- <input type="color">
+		<input type="radio"> -->
+		<input type="password" name="Password" placeholder="Password">
+		<input type="submit">        <!-- input type -->	
+	</form>
+	
 </body>
 </html>
