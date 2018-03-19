@@ -9,3 +9,8 @@ li{
 h4{
 	color: purple
 }
+
+body{
+	background: url(https://www.w3schools.com/css/paris.jpg);
+	background-size: cover;
+}
