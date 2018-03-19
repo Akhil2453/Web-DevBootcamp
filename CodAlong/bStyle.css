@@ -1,5 +1,36 @@
-border color: #bdc3c7
+/*border color: #bdc3c7
 date color: #3498db
 h2 color: #2c3e50
 
 font: source sans pro
+*/
+body {
+	border: 20px solid #bdc3c7;
+	font-family: 'Source Sans Pro';
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 1.66%;
+	margin-bottom: 1.66%;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+h2 {
+	color: #2c3e50;
+}
+
+.date {
+	color: #3948db;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+div:nth-of-type(1) {
+	border-bottom: 2px solid #bdc3c7;
+
+}
+
+.one {
+	border-left: 2px solid #bdc3c7;
+}
