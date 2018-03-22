@@ -1,10 +1,10 @@
 body {
-	background-color: #000000;
+	background-color: #232323;
 }
 
 .square {
 	width: 30%;
-	padding-bottom: 30%:
+	padding-bottom: 30%;
 	background: purple;
 	margin: 1.66%;
 	float: left; 
@@ -13,4 +13,8 @@ body {
 #container {
 	margin-: 0 auto;
 	max-width: 600px; 
+}
+
+h1 {
+	color: white;
 }
